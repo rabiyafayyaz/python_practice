@@ -3,9 +3,9 @@ with open ("notes.txt", "r") as file:
     words = content.split()
     
     count = {}
-    for sentence in words:
-        if sentence in count:
-            count[sentence] += 1
+    for word in words:
+        if word in count:
+            count[word] += 1
         else:
-            count[sentence] = 1
+            count[word] = 1
 print(count)        
