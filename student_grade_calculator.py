@@ -32,8 +32,6 @@ def grades(average):
    else:
     return "Fail"
 
-
-
 def main():
     marks = collect_marks()
     total=total_marks(marks)
