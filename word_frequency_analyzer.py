@@ -11,7 +11,7 @@
 # • Loops
 # • Strings
 # • Functions
-# learn collection.counter
+# learn collection.counter *new concept*
 from collections import Counter
 def get_paragraph():
   paragraph= input("Enter a paragraph:")
